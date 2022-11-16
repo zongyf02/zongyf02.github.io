@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="UW SE Yifan Zong's personal website" />
+  <meta name="author" content="Alex Li" />
+  <title>Yifan Zong's Personal Website</title>
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./assets/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./assets/favicon/site.webmanifest" />
+  <script src="https://kit.fontawesome.com/9f5f2a00f9.js" crossorigin="anonymous"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://unpkg.com/scrollbooster@1.1.0/dist/scrollbooster.min.js"></script>
+  <script src="./scripts/index.js"></script>
+</head>
+
+<body>
+  <main>
+    <header>
+      <div class="nav-bar highlightTextOut">
+        <a class="about link" alt="About" href="#about">About</a>
+        <a class="experience link" alt="Experience" href="#experience">Experience</a>
+        <div class="icons">
+          <a href="https://github.com/zongyf02" target="_blank">
+            <i class="fab fa-github tool tooltip" aria-hidden="true">
+              <span class="tooltiptext">Github</span>
+            </i>
+          </a>
+          <a href="https://www.linkedin.com/in/yifanzong/" target="_blank">
+            <i class="fab fa-linkedin tooltip" aria-hidden="true">
+              <span class="tooltiptext">Linkedin</span>
+            </i>
+          </a>
+          <a href="mailto:y22zong@uwaterloo.ca" target="_blank">
+            <i class="fas fa-envelope-square tooltip" aria-hidden="true">
+              <span class="tooltiptext">Email</span>
+            </i>
+          </a>
+          <a href="./assets/Resume.pdf" target="_blank">
+            <i class="fas fa-file-pdf tooltip" aria-hidden="true">
+              <span class="tooltiptext">Resume</span>
+            </i>
+          </a>
+        </div>
+      </div>
+    </header>
+    <section id="about">
+      <div id="hero-container">
+        <div id="hero-details">
+          <h1 class="title-label">ML & SE Enthusiast</h1>
+          <div class="description">
+            <div class="description-header">
+              <h1>HELLO WORLD,&nbsp; I AM<br>
+                <span class="heading-large"><em>YIFAN ZONG</em></span>
+              </h1>
+            </div>
+            <div class="description-body">
+              I'm passioinate about deep-learning, with special interests in Large Language Models!
+              I'm always looking for new adventures with new things things to learn
+            </div>
+            <hr class="divider">
+
+            <div id="f1-fanboi">
+              <span style="color: grey;font-size: 10px; ">*This work is based on
+                <a style="color:lightslategray; text-decoration:none" target="_blank"
+                  href="https://sketchfab.com/3d-models/low-poly-red-bull-f1-car-75d6d98172b94c6dbf9bb360e9c4f147">"Low
+                  Poly Red Bull F1 Car"
+                </a>
+                by MeD
+              </span>
+              <canvas id="redbullCar"></canvas>
+              <script type="module" src="./scripts/carorbit.js"></script>
+            </div>
+          </div>
+        </div>
+        <div id="image-container">
+          <img src="./assets/ProfileImage.jpeg" width="100%" />
+        </div>
+      </div>
+    </section>
+    <section id="experience">
+      <div id="skills">
+        <img src="./assets/Tensorflow.png" />
+        <img src="./assets/Pytorch.png" />
+        <img src="./assets/Jax.png" />
+        <img src="./assets/Cpp.png" />
+        <img src="./assets/R.png" />
+        <img src="./assets/SQL.png" />
+      </div>
+      <br>
+      <img margin-top="10px" src="./assets/mlax-logo.png" />
+      <div id="wrapper">
+        <div class="chat">
+          <div class="chat-container">
+            <div class="chat-listcontainer">
+              <ul class="chat-message-list">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="./scripts/chat.js"></script>
+    </section>
+  </main>
+</body>
+
+</html>

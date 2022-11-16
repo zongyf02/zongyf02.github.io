@@ -1,0 +1,11 @@
+Model Information:
+* title:	Low Poly Red Bull F1 Car
+* source:	https://sketchfab.com/3d-models/low-poly-red-bull-f1-car-75d6d98172b94c6dbf9bb360e9c4f147
+* author:	MeD (https://sketchfab.com/medvee)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Low Poly Red Bull F1 Car" (https://sketchfab.com/3d-models/low-poly-red-bull-f1-car-75d6d98172b94c6dbf9bb360e9c4f147) by MeD (https://sketchfab.com/medvee) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
