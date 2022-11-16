@@ -1,31 +1,31 @@
 var chatMessages = [
   {
-    msg: "Hey have you heard of mlax?",
+    msg: "Hey, have you heard of <a href='https://github.com/zongyf02/mlax' target='_blank'>mlax</a>?",
     delay: 500,
     align: "right",
   },
   {
-    msg: "Yes, mlax is a purely functional ML library built with Google JAX.",
+    msg: "Ya, isn't mlax the purely functional ML library built with Google JAX.",
     delay: 3000,
     align: "left",
   },
   {
-    msg: "Could you give a brief explanation of what that means?",
+    msg: "What does that mean?",
     delay: 2000,
     align: "right",
   },
   {
-    msg: "This means there are no layers, mutations, nor classes. Models are a series of transformations without internal states or side-effects.",
+    msg: "Well, in mlax, there are no layers, mutations, nor classes. Models are a series of transformations without internal states or side-effects.",
     delay: 3000,
     align: "left",
   },
   {
-    msg: "With mlax, you can manage where every variable is stored, dictate how data move between devices, specify where each computation happens, and control the precision and dtype of every single operation, all without any low-level programming knowledge.",
+    msg: "You can manage where every variable is stored, dictate how data move between devices, specify where each computation happens, and control the precision and dtype of every single operation, all without any low-level programming knowledge!",
     delay: 2000,
     align: "left",
   },
   {
-    msg: "Wow that sounds so cool! I'll be sure to check it out on <a href='https://github.com/zongyf02/mlax' target='_blank'>GitHub</a>!",
+    msg: "Wow, that sounds so cool! I'll check it out.",
     delay: 3000,
     align: "right",
   },
