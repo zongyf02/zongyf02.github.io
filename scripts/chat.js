@@ -5,7 +5,7 @@ var chatMessages = [
     align: "right",
   },
   {
-    msg: "Ya, isn't mlax the purely functional ML library built with Google JAX.",
+    msg: "Ya, isn't it a purely functional ML library built on top of Google JAX?",
     delay: 3000,
     align: "left",
   },
