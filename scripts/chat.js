@@ -5,28 +5,33 @@ var chatMessages = [
     align: "right",
   },
   {
-    msg: "Ya, isn't it a purely functional ML library built on top of Google JAX?",
-    delay: 3000,
+    msg: "No, what is it?",
+    delay: 1000,
     align: "left",
   },
   {
-    msg: "What does that mean?",
+    msg: "It's a new pure functional neural-network library built on top on Google JAX.",
     delay: 2000,
     align: "right",
   },
   {
-    msg: "Well, in mlax, there are no layers, mutations, nor classes. Models are a series of transformations without internal states or side-effects.",
-    delay: 3000,
+    msg: "Wait, how is it different from Flax or Haiku?",
+    delay: 1000,
     align: "left",
   },
   {
-    msg: "You can manage where every variable is stored, dictate how data move between devices, specify where each computation happens, and control the precision and dtype of every single operation, all without any low-level programming knowledge!",
+    msg: "mlax decouples model weights, hyperparamters, and functions. So it's fully compatible with JAX's native transformations.",
     delay: 2000,
-    align: "left",
+    align: "right",
   },
   {
-    msg: "Wow, that sounds so cool! I'll check it out.",
-    delay: 3000,
+    msg: "Like, you can just use jax.jit, jax.grad on the layers. If you know JAX, you understand mlax already.",
+    delay: 2000,
+    align: "right",
+  },
+  {
+    msg: "Wow, that's pretty cool! I'll check it out.",
+    delay: 1000,
     align: "right",
   },
 ]
